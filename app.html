@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasa Urban Data</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header>
+   
+    <h1>NASA Urban Data Challenge</h1>
+    <p>Solución a la desorganización urbana usando datos de la NASA</p>
+  </header>
+
+  <main>
+    <!-- Intro -->
+    <section id="intro">
+      <h2>Problema</h2>
+      <p>
+        La desorganización urbana dificulta la planificación de las ciudades.  
+        Nuestra propuesta permite que urbanistas utilicen datos satelitales de la NASA  
+        para tomar mejores decisiones.
+      </p>
+    </section>
+
+    <!-- Solución -->
+    <section id="solucion">
+      <h2>Solución</h2>
+      <p>
+        Con ayuda de <b>Kepler.gl</b>, integramos datos reales en un mapa interactivo, 
+        donde se pueden visualizar patrones de crecimiento urbano, recursos naturales 
+        y problemáticas de distribución.
+      </p>
+    </section>
+
+    <!-- Mapa interactivo -->
+    <section id="mapa">
+      <h2>Mapa interactivo</h2>
+      <div id="kepler-container">
+        <!-- Aquí insertaremos el mapa -->
+        <iframe 
+          src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/751zrnw7v5apecw06w1mx/keplergl_apeoe6p.json?rlkey=c17ltuhf9n7d6c55djd1n595o&dl=0" 
+          width="100%" 
+          height="500" 
+          style="border:none; border-radius: 10px;">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Equipo Space Apps Challenge| 2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
